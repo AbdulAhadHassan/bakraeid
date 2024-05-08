@@ -1,0 +1,17 @@
+body{
+    background: url( https://awamiweb.com/wp-content/uploads/2018/08/qurbani-cow-600x360.jpg);
+    background-repeat: no-repeat ;
+    background-size:100% ;
+    padding: 0%;
+  
+}
+
+
+#box{
+    margin: 0;
+    padding: 0%;
+    background-color: hsla(0, 0%, 0%, 0.701);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
