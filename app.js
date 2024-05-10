@@ -41,9 +41,9 @@ function clockUpdate(){
     
 document.getElementById("month").textContent = `${Math.floor(month)}`;
 document.getElementById("day").textContent = `${Math.floor(conVar)}`
-document.getElementById("hour").textContent = `${hour}`
-document.getElementById("min").textContent = `${min}`
-document.getElementById("sec").textContent = `${sec}`
+document.getElementById("hour").textContent = `${23-hour}`
+document.getElementById("min").textContent = `${60-min}`
+document.getElementById("sec").textContent = `${60-sec}`
 
 }
 
